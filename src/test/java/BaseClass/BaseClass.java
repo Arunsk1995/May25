@@ -26,6 +26,7 @@ public class BaseClass {
 	public static void baseURI(String baseURI) {
 		RestAssured.baseURI = baseURI;
 		given = RestAssured.given();
+		//Already changes made
 	}
 
 	public static void queryParameter(String parameterName, String parameterValue) {
